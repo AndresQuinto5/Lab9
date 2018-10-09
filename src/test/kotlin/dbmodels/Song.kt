@@ -29,4 +29,5 @@ class Song: Table() {
     val loudness= varchar("loudness", length = 50)
     val valence = varchar("valence", length = 50)
     val happiness = varchar("happiness", length = 50)
+    val isFav : Boolean = false
 }
